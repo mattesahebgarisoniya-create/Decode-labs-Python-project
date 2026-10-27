@@ -1,0 +1,80 @@
+ General Knowledge Quiz
+
+ 📌 Project Overview
+
+The General Knowledge Quiz is a simple Python-based project that tests users' general knowledge by asking three questions. The program checks the user's answers, displays whether they are correct or incorrect, and calculates the final score out of 3. It provides a simple and interactive command-line quiz experience.
+
+ 🎯 Objectives
+
+- To understand Python programming fundamentals.
+- To practice conditional statements and user input.
+- To learn how to compare and validate answers.
+- To develop a simple quiz application.
+- To improve logical thinking and general knowledge.
+
+ ✨ Features
+
+- **Interactive Questions:** Ask users three general knowledge questions.
+- **Answer Validation:** Check whether the entered answers are correct.
+- **Instant Feedback:** Display correct or incorrect messages.
+- **Score Calculation:** Calculate the final score based on correct answers.
+- **Case-Insensitive Input:** Accept answers regardless of letter case.
+- **Flexible Answers:** Accept both "7" and "seven" for the number of days in a week.
+
+ 🛠️ Technologies Used
+
+- **Programming Language:** Python 3
+- **Concepts:** Variables, If-Else Statements, User Input, String Methods, Comparison Operators, and Score Calculation
+
+ 💻 How to Run the Project
+
+1. Install Python 3 on your computer.
+2. Copy the project code into a file named `quiz.py`.
+3. Open a terminal or command prompt.
+4. Navigate to the folder containing the file.
+5. Run the following command:
+
+
+python quiz.py
+
+
+ 📋 Sample Output
+
+
+================================
+     GENERAL KNOWLEDGE QUIZ
+================================
+1. What is the capital of France? Paris
+Correct answer!
+2. Which planet is known as the Red Planet? Mars
+Correct answer!
+3. How many days are there in a week? Seven
+Correct answer!
+
+================================
+Your final score is: 3/3
+Thank you for playing!
+================================
+
+
+ 📚 Learning Outcomes
+
+- Learned how to accept and process user input.
+- Understood conditional statements for answer checking.
+- Practiced string methods such as `strip()` and `lower()`.
+- Learned how to calculate and display a score.
+- Developed a basic interactive quiz application using Python.
+
+ 🚀 Future Enhancements
+
+- Add more general knowledge questions.
+- Include multiple-choice questions.
+- Randomize the order of questions.
+- Add different difficulty levels.
+- Display the user's percentage score.
+- Allow users to play the quiz again.
+
+ 👩‍💻 Author
+
+Developed as part of my Decodelabs Python internship projects.
+
