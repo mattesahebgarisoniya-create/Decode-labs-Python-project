@@ -1,0 +1,65 @@
+Python Password Generator
+
+ 📌 Project Overview
+
+The Password Generator is a simple Python-based project that generates a random password based on the length entered by the user. It uses uppercase letters, lowercase letters, and digits to create a password. This project helps users understand random selection and string manipulation in Python.
+
+ 🎯 Objectives
+
+- To understand Python programming fundamentals.
+- To practice loops, variables, and user input.
+- To learn how to use Python's random and string modules.
+- To develop a simple password generation application.
+
+ ✨ Features
+
+- **Custom Password Length:** Allows users to specify the password length.
+- **Random Password Generation:** Generates a password using randomly selected characters.
+- **Letters and Digits:** Includes uppercase letters, lowercase letters, and numbers.
+- **Simple Interface:** Easy to use through the command line.
+
+ 🛠️ Technologies Used
+
+- **Programming Language:** Python 3
+- **Modules:** `random` and `string`
+- **Concepts:** Variables, For Loop, User Input, String Concatenation, and Random Selection
+
+ 💻 How to Run the Project
+
+1. Install Python 3 on your computer.
+2. Copy the project code into a file named `password_generator.py`.
+3. Open a terminal or command prompt.
+4. Navigate to the folder containing the file.
+5. Run the following command:
+
+
+python password_generator.py
+
+
+ 📋 Sample Output
+
+
+Enter password length: 10
+Your password is: aB7kP2mX9q
+
+
+*Note: The generated password will be different each time the program runs.*
+
+ 📚 Learning Outcomes
+
+- Learned how to generate random characters using Python.
+- Understood how to use the random and string modules.
+- Practiced loops and string concatenation.
+- Developed a basic password generation application.
+
+ 🚀 Future Enhancements
+
+- Include special characters such as @, #, and !.
+- Add input validation for password length.
+- Allow users to choose whether to include letters, digits, and symbols.
+- Improve password security by using Python's `secrets` module.
+
+ 👩‍💻 Author
+
+Developed as part of my Decodelabs Python internship projects.
+
