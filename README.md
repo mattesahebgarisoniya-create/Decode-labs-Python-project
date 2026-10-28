@@ -1,80 +1,77 @@
- General Knowledge Quiz
+ Python Expense Tracker
 
  📌 Project Overview
 
-The General Knowledge Quiz is a simple Python-based project that tests users' general knowledge by asking three questions. The program checks the user's answers, displays whether they are correct or incorrect, and calculates the final score out of 3. It provides a simple and interactive command-line quiz experience.
+The Expense Tracker is a simple Python-based project that helps users calculate their total expenses. Users can enter expense amounts one by one, and the application calculates the total amount spent. The program also handles invalid inputs and prevents negative expense amounts.
 
  🎯 Objectives
 
 - To understand Python programming fundamentals.
-- To practice conditional statements and user input.
-- To learn how to compare and validate answers.
-- To develop a simple quiz application.
-- To improve logical thinking and general knowledge.
+- To practice variables, loops, conditional statements, and user input.
+- To develop a simple expense management application.
+- To improve logical thinking and problem-solving skills.
 
  ✨ Features
 
-- **Interactive Questions:** Ask users three general knowledge questions.
-- **Answer Validation:** Check whether the entered answers are correct.
-- **Instant Feedback:** Display correct or incorrect messages.
-- **Score Calculation:** Calculate the final score based on correct answers.
-- **Case-Insensitive Input:** Accept answers regardless of letter case.
-- **Flexible Answers:** Accept both "7" and "seven" for the number of days in a week.
+- **Add Expense:** Enter multiple expense amounts.
+- **Calculate Total:** Calculate the total amount spent.
+- **Input Validation:** Display an error message for invalid inputs.
+- **Negative Value Handling:** Prevent negative expense amounts.
+- **Exit:** Type 'done' to finish entering expenses and display the total.
 
  🛠️ Technologies Used
 
 - **Programming Language:** Python 3
-- **Concepts:** Variables, If-Else Statements, User Input, String Methods, Comparison Operators, and Score Calculation
+- **Concepts:** Variables, While Loop, If-Else Statements, Try-Except Exception Handling, Type Conversion, and User Input
 
  💻 How to Run the Project
 
 1. Install Python 3 on your computer.
-2. Copy the project code into a file named `quiz.py`.
+2. Copy the project code into a file named `expense_tracker.py`.
 3. Open a terminal or command prompt.
 4. Navigate to the folder containing the file.
 5. Run the following command:
 
 
-python quiz.py
+python expense_tracker.py
 
 
  📋 Sample Output
 
 
-================================
-     GENERAL KNOWLEDGE QUIZ
-================================
-1. What is the capital of France? Paris
-Correct answer!
-2. Which planet is known as the Red Planet? Mars
-Correct answer!
-3. How many days are there in a week? Seven
-Correct answer!
-
-================================
-Your final score is: 3/3
-Thank you for playing!
-================================
+===== EXPENSE TRACKER =====
+Enter your expense amounts one by one.
+Type 'done' when you have finished.
+Enter expense amount: 100
+Expense added successfully!
+Enter expense amount: 250
+Expense added successfully!
+Enter expense amount: 50
+Expense added successfully!
+Enter expense amount: done
+---------------------------
+Total Spent: Rs. 400.00
+Thank you for using Expense Tracker!
 
 
  📚 Learning Outcomes
 
-- Learned how to accept and process user input.
-- Understood conditional statements for answer checking.
-- Practiced string methods such as `strip()` and `lower()`.
-- Learned how to calculate and display a score.
-- Developed a basic interactive quiz application using Python.
+- Learned how to use variables to store expense totals.
+- Understood how to use loops to accept multiple expenses.
+- Practiced conditional statements and input validation.
+- Learned exception handling using try-except.
+- Developed a basic expense tracking application using Python.
 
  🚀 Future Enhancements
 
-- Add more general knowledge questions.
-- Include multiple-choice questions.
-- Randomize the order of questions.
-- Add different difficulty levels.
-- Display the user's percentage score.
-- Allow users to play the quiz again.
+- Add expense categories such as food, travel, and shopping.
+- Store expenses in a file for future reference.
+- Display daily and monthly expense summaries.
+- Set a budget limit and show a warning when it is exceeded.
+- Display individual expenses along with the total amount.
 
  👩‍💻 Author
 
 Developed as part of my Decodelabs Python internship projects.
+
 
