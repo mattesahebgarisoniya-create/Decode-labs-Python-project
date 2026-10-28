@@ -1,78 +1,80 @@
- Python To-Do List Application
+ General Knowledge Quiz
 
  📌 Project Overview
-The To-Do List Application is a simple Python-based project that helps users manage their daily tasks. Users can add new tasks, view their existing tasks, and exit the application through a menu-driven interface.
+
+The General Knowledge Quiz is a simple Python-based project that tests users' general knowledge by asking three questions. The program checks the user's answers, displays whether they are correct or incorrect, and calculates the final score out of 3. It provides a simple and interactive command-line quiz experience.
 
  🎯 Objectives
+
 - To understand Python programming fundamentals.
-- To practice lists, loops, conditional statements, and user input.
-- To develop a simple task management application.
-- To improve logical thinking and problem-solving skills.
+- To practice conditional statements and user input.
+- To learn how to compare and validate answers.
+- To develop a simple quiz application.
+- To improve logical thinking and general knowledge.
 
  ✨ Features
-- **Add Task:** Add a new task to the to-do list.
-- **View Tasks:** Display all the tasks added by the user.
-- **Empty List Handling:** Display a message when no tasks are available.
-- **Exit:** Close the application safely.
+
+- **Interactive Questions:** Ask users three general knowledge questions.
+- **Answer Validation:** Check whether the entered answers are correct.
+- **Instant Feedback:** Display correct or incorrect messages.
+- **Score Calculation:** Calculate the final score based on correct answers.
+- **Case-Insensitive Input:** Accept answers regardless of letter case.
+- **Flexible Answers:** Accept both "7" and "seven" for the number of days in a week.
 
  🛠️ Technologies Used
+
 - **Programming Language:** Python 3
-- **Concepts:** Lists, While Loop, If-Else Statements, For Loop, and User Input
+- **Concepts:** Variables, If-Else Statements, User Input, String Methods, Comparison Operators, and Score Calculation
 
  💻 How to Run the Project
 
 1. Install Python 3 on your computer.
-2. Copy the project code into a file named `todo.py`.
+2. Copy the project code into a file named `quiz.py`.
 3. Open a terminal or command prompt.
 4. Navigate to the folder containing the file.
 5. Run the following command:
 
 
-python task.py
+python quiz.py
 
 
  📋 Sample Output
 
-To-Do List
-1. Add Task
-2. View Tasks
-3. Exit
 
-Enter your choice: 1
-Enter your task: Complete internship task
-Task added successfully!
+================================
+     GENERAL KNOWLEDGE QUIZ
+================================
+1. What is the capital of France? Paris
+Correct answer!
+2. Which planet is known as the Red Planet? Mars
+Correct answer!
+3. How many days are there in a week? Seven
+Correct answer!
 
-To-Do List
-1. Add Task
-2. View Tasks
-3. Exit
-
-Enter your choice: 2
-
-My Tasks:
-- Complete internship task
-
-To-Do List
-1. Add Task
-2. View Tasks
-3. Exit
-
-Enter your choice: 3
-Thank you!
+================================
+Your final score is: 3/3
+Thank you for playing!
+================================
 
 
  📚 Learning Outcomes
-- Learned how to store data using Python lists.
-- Understood how to use loops to create a menu-driven program.
-- Practiced conditional statements for handling user choices.
-- Developed a basic command-line application using Python.
+
+- Learned how to accept and process user input.
+- Understood conditional statements for answer checking.
+- Practiced string methods such as `strip()` and `lower()`.
+- Learned how to calculate and display a score.
+- Developed a basic interactive quiz application using Python.
 
  🚀 Future Enhancements
-- Add a feature to delete tasks.
-- Add a feature to mark tasks as completed.
-- Save tasks to a file so they remain available after restarting the application.
-- Add task editing functionality.
+
+- Add more general knowledge questions.
+- Include multiple-choice questions.
+- Randomize the order of questions.
+- Add different difficulty levels.
+- Display the user's percentage score.
+- Allow users to play the quiz again.
 
  👩‍💻 Author
+
 Developed as part of my Decodelabs Python internship projects.
 
